@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rf-requestslibrary"
+version = "0.1.0"
+description = "Testes de API com Robot Framework e RequestsLibrary"
+authors = ["Robot Courses <git@robotcourses.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+robotframework = "^7.0.1"
+robotframework-requests = "^0.9.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
